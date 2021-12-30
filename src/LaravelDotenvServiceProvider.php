@@ -2,9 +2,9 @@
 
 namespace Lostlink\LaravelDotenv;
 
+use Lostlink\LaravelDotenv\Commands\DotenvPullCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Lostlink\LaravelDotenv\Commands\DotenvPullCommand;
 
 class LaravelDotenvServiceProvider extends PackageServiceProvider
 {
